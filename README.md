@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-![WordCloud Review Aplikasi DANA](wordcloud_review_baru.png)
+![WordCloud Review Aplikasi DANA](dana.png)
 
 Perkembangan layanan dompet digital di Indonesia membuat aplikasi keuangan digital semakin banyak digunakan oleh masyarakat. Salah satu aplikasi dompet digital yang populer adalah **DANA**, yang menyediakan berbagai layanan seperti transfer uang, pembayaran tagihan, top up saldo, pembayaran QRIS, hingga transaksi online lainnya. Banyaknya pengguna aplikasi DANA membuat ulasan atau review pengguna di Google Play Store menjadi sumber informasi penting untuk mengetahui pengalaman pengguna terhadap aplikasi tersebut.
 
