@@ -379,13 +379,16 @@ F1-score merupakan rata-rata harmonis antara precision dan recall. Metrik ini pe
 
 Confusion matrix digunakan untuk melihat jumlah prediksi benar dan salah pada setiap kelas. Dengan confusion matrix, dapat diketahui kelas sentimen mana yang paling sering diprediksi dengan benar dan kelas mana yang masih sering tertukar.
 
-### 📊 Hasil Evaluasi Model
+ ### 📊 Hasil Evaluasi Model
 
-| Model       |                  Accuracy |                 Precision |                    Recall |                  F1-Score |
-| ----------- | ------------------------: | ------------------------: | ------------------------: | ------------------------: |
-| Naive Bayes | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook |
-| SVM         | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook |
+| Model | Accuracy | Precision Macro | Recall Macro | F1 Macro | F1 Weighted |
+|---|---:|---:|---:|---:|---:|
+| Naive Bayes | 0.7501 | 0.7589 | 0.6445 | 0.6370 | 0.7130 |
+| SVM | 0.7729 | 0.7344 | 0.7316 | 0.7321 | 0.7697 |
 
+Berdasarkan hasil evaluasi, model dengan performa terbaik adalah **Support Vector Machine (SVM)**. Model SVM dipilih karena memperoleh nilai **F1 Macro tertinggi**, yaitu **0.7321**, dibandingkan dengan Naive Bayes yang memperoleh nilai **F1 Macro sebesar 0.6370**. Selain itu, SVM juga memperoleh nilai accuracy yang lebih tinggi, yaitu **0.7729**, dibandingkan Naive Bayes sebesar **0.7501**.
+
+Meskipun Naive Bayes memiliki nilai **Precision Macro** yang sedikit lebih tinggi, SVM tetap dipilih sebagai model terbaik karena **F1 Macro** menunjukkan keseimbangan antara precision dan recall pada seluruh kelas sentimen. Hal ini menunjukkan bahwa SVM lebih stabil dalam mengklasifikasikan sentimen review aplikasi DANA secara keseluruhan.
 Berdasarkan hasil evaluasi, model dengan performa terbaik adalah **Berdasarkan hasil evaluasi, model dengan performa terbaik adalah **Support Vector Machine (SVM)**.**. Model tersebut dipilih karena memiliki nilai accuracy dan F1-score yang lebih baik dibandingkan model lainnya.
 
 ### 🔹 Kesimpulan Evaluasi
