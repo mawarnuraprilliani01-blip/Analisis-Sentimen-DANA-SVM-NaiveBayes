@@ -55,7 +55,7 @@ def load_model():
             metadata = json.load(f)
     else:
         metadata = {
-            "best_model": "Model Terbaik",
+            "best_model": "SVM",
             "selection_metric": "F1-Score / Accuracy",
             "labels": ["negatif", "netral", "positif"]
         }
