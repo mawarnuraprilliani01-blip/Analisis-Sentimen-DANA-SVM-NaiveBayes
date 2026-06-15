@@ -386,7 +386,7 @@ Confusion matrix digunakan untuk melihat jumlah prediksi benar dan salah pada se
 | Naive Bayes | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook |
 | SVM         | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook | isi sesuai hasil notebook |
 
-Berdasarkan hasil evaluasi, model dengan performa terbaik adalah **isi sesuai hasil notebook**. Model tersebut dipilih karena memiliki nilai accuracy dan F1-score yang lebih baik dibandingkan model lainnya.
+Berdasarkan hasil evaluasi, model dengan performa terbaik adalah **Berdasarkan hasil evaluasi, model dengan performa terbaik adalah **Support Vector Machine (SVM)**.**. Model tersebut dipilih karena memiliki nilai accuracy dan F1-score yang lebih baik dibandingkan model lainnya.
 
 ### 🔹 Kesimpulan Evaluasi
 
