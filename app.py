@@ -17,7 +17,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    model = joblib.load("models/best_model.pkl")
+    model = joblib.load("best_model.pkl")
     with open("models/metadata.json", "r", encoding="utf-8") as f:
         metadata = json.load(f)
     return model, metadata
