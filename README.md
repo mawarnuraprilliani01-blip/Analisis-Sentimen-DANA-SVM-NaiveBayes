@@ -21,7 +21,7 @@ Proyek ini bertujuan untuk membangun model machine learning yang mampu melakukan
 ✔ Menghasilkan model machine learning yang dapat digunakan untuk memprediksi sentimen dari review baru.
 
 ---
-
+Format Referensi Dataset: [DANA App Sentiment Review on Playstore Indonesia - Kaggle](https://www.kaggle.com/datasets/alexmariosimanjuntak/dana-app-sentiment-review-on-playstore-indonesia)
 ## Business Understanding
 
 ### 📝 Problem Statements
